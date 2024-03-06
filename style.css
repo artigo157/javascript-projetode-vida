@@ -65,7 +65,10 @@ font-family:'Chakra Petch', sans-serif;
     display: block; 
 
 }
-
+.ativo{
+    background-color: var(--botão-ativo);
+    border-bottom: 4px solid var(--verde);
+}
 @media screen and (min-width:750px){
     .botoes{
         display: flex;
