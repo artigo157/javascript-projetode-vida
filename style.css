@@ -61,7 +61,7 @@ font-family:'Chakra Petch', sans-serif;
 
 }
 
-.botoes{
+.botoes.ativo{
     display: block; 
 
 }
@@ -69,6 +69,23 @@ font-family:'Chakra Petch', sans-serif;
     background-color: var(--botão-ativo);
     border-bottom: 4px solid var(--verde);
 }
+.abas-texto{
+background-color: var(--botão-ativo);
+border-bottom: 4px solid var(--verde);
+}
+.aba-conteudo-ativo {
+display: block;
+}
+.aba-conteudo{
+    display: none;
+}
+
+
+
+
+
+
+
 @media screen and (min-width:750px){
     .botoes{
         display: flex;
